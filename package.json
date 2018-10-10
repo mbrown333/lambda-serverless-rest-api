@@ -1,0 +1,21 @@
+{
+  "name": "lambda-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.331.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-uuid": "^1.4.8",
+    "serverless-dynamodb-local": "^0.2.35",
+    "serverless-http": "^1.6.0",
+    "serverless-offline": "^3.27.0"
+  }
+}
